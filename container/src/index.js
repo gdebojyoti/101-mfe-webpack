@@ -1,1 +1,4 @@
-console.log("Container: I got in.")
+import ('./bootstrap').then(module => {
+  console.log('module loaded')
+  console.log(module)
+})
