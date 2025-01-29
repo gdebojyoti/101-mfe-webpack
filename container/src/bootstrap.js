@@ -1,1 +1,3 @@
-console.log("Container: I got in.")
+import 'ttt/output'
+
+console.log("Container: I got in")
