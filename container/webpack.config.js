@@ -12,7 +12,7 @@ module.exports = {
     }),
     new ModuleFederationPlugin({
       remotes: {
-        ttt: 'tictactoe@http://localhost:3001/export.js'
+        ttt: 'tictactoe@http://localhost:3001/remoteEntry.js'
       }
     })
   ]

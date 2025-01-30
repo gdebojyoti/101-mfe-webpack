@@ -12,7 +12,7 @@ module.exports = {
     }),
     new ModuleFederationPlugin({
       name: 'tictactoe',
-      filename: 'export.js',
+      filename: 'remoteEntry.js',
       exposes: {
         './output': './src/index.js'
       },
