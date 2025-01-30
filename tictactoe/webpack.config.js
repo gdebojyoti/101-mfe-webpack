@@ -14,7 +14,7 @@ module.exports = {
       name: 'tictactoe',
       filename: 'remoteEntry.js',
       exposes: {
-        './output': './src/index.js'
+        './output': './src/bootstrap.js'
       },
       shared: ['dayjs']
     })
