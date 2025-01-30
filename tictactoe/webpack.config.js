@@ -15,7 +15,8 @@ module.exports = {
       filename: 'export.js',
       exposes: {
         './output': './src/index.js'
-      }
+      },
+      shared: ['dayjs']
     })
   ]
 }
