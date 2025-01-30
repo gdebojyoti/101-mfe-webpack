@@ -6,6 +6,9 @@
 </head>
 <body>
   <div id="app-ttt"></div>
+
+  <!-- Setting `id` to app name is not allowed -->
+  <!-- Browsers create global variables with the same name (`window.tictactoe`) as element IDs; in this case that conflicts with the variable that webpack creates -->
   <!-- <div id="tictactoe"></div> -->
 </body>
 </html>
