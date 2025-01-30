@@ -16,7 +16,7 @@ const render = (elm) => {
 
 // check for dev env
 if (process.env.NODE_ENV === 'development') {
-  const rootElm = document.getElementById("app-ttt")
+  const rootElm = document.getElementById("app")
   if (rootElm) {
     render(rootElm)
   }
